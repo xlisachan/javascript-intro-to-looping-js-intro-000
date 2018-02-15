@@ -7,7 +7,7 @@ if your i value is anything else, add the string "I am ${i} strange loops.".
 (Remember flow control with if and else? And how do we interpolate i?)
 Then return the array.*/
 
-function forLoop(array) {
+function forLoop(array){
   for (let array[i] = 0; array[i] < 25, array[i]++) {
     if (array[i] === 1){
       console.log("I am 1 strange loop.");
