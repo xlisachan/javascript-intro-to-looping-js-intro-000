@@ -8,8 +8,8 @@ if your i value is anything else, add the string "I am ${i} strange loops.".
 Then return the array.*/
 
 function forLoop(array){
-  for (let array[i] = 0; array[i] < 25, array[i]++) {
-    if (array[i] === 1){
+  for (let i = 0; i < 25, i++) {
+    if (i === 1){
       array.push("I am 1 strange loop.");
     } else {
       array.push(`I am ${i} strange loops.`);
